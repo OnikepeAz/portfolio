@@ -1,0 +1,66 @@
+.container{
+  display:flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  align-self: center;
+  height: 85vh;
+  padding: 0px 40px 0px 40px;
+}
+.left{
+ flex: 50%;
+ margin-top: 7%;
+}
+.right{
+  margin-top: 7%;
+  flex: 50%;
+}
+@media(max-width: 600px){
+ 
+  .container{
+    display: flex;
+    align-self: center;
+    height: 75vh;
+    padding: 0px 15px 0px 
+  }
+  .left{
+    flex: 50%;
+    margin-top: 7%;
+    width: fit-content;
+   }
+   .right{
+   width: fit-content; 
+   display: none;
+   }
+}
+
+.heading{
+ font-size: 300%;
+ font-weight: bolder;
+ font-style: inherit;
+ color: #00D2E5;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.para{
+  font-size: 120%;
+  font-style: auto;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.field{
+  width: 100%;
+  align-content: center;
+}
+.field label {
+  width: 100%;
+}
+.field input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.field textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
